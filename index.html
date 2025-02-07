@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Utkarsha Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-size: 1.02rem;
+      }
+
+      main hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+      }
+
+      .firstsection > div {
+        width: 30%;
+      }
+
+      .leftsection {
+        font-size: 2rem;
+      }
+
+      .leftsection .buttons {
+        padding: 50px 0;
+      }
+
+      .leftsection .btn {
+        padding: 12px;
+        background-color: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      .btn :hover {
+        background-color: #3a3eb8;
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+        transform: scale(1.05);
+      }
+      .btn:active {
+        transform: scale(0.95);
+      }
+
+      .rightsection img {
+        width: 80%;
+        background-color: transparent;
+      }
+
+      .purple {
+        color: #aa68e7;
+      }
+
+      #element {
+        color: #aa68e7;
+      }
+
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      .secondsection h1 {
+        font-size: 1.9rem;
+      }
+
+      .secondsection .box {
+        background: white;
+        width: 79vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 110px;
+      }
+
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+
+      .vertical-Title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer {
+        background-color: #0c0e1a;
+        height: 233px;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+      }
+
+      .footer {
+        display: flex;
+        justify-content: space-between;
+        max-width: 80%;
+        margin: auto;
+        flex-wrap: wrap;
+      }
+
+      .footer div {
+        width: 22%;
+      }
+
+      .footer h3,
+      .footer h4 {
+        margin-bottom: 10px;
+      }
+
+      .footer ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .footer ul li {
+        margin-bottom: 5px;
+      }
+
+      .footer ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer ul li a:hover {
+        color: #a3a0df;
+      }
+
+      .footer-bottom {
+        text-align: center;
+        padding-top: 10px;
+        border-top: 1px solid #444;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Utkarsha's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Utkarsha</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <a target="_blank" href="https://github.com/Utkarsha911"
+              ><button class="btn">Visit Github</button></a
+            >
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+
+      <section class="secondsection">
+        <span>What I have done so far</span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="developer-removebg-preview.png"
+              alt=""
+            />
+            <div class="vertical-Title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Developed and maintained responsive web pages using HTML, CSS, and
+              JavaScript. Collaborated with designers to create visually
+              appealing and user-friendly websites. Optimized websites for
+              better performance and SEO ranking.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="youtube.png" alt="" />
+            <div class="vertical-Title">
+              Content Creator - Youtuber <br />(2012-2014)
+            </div>
+            <div class="vertical-desc">
+              Created engaging video content related to tech, tutorials,
+              lifestyle. Edited and optimized videos for higher engagement and
+              watch time. Managed SEO for videos, using keywords and thumbnails
+              to increase reach.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="insta-removebg-preview.png" alt="" />
+            <div class="vertical-Title">
+              HTML Developer - Instagram <br />(2014-2016)
+            </div>
+            <div class="vertical-desc">
+              Developed landing pages and Instagram-integrated micro-websites.
+              Created visually appealing Instagram marketing pages using HTML &
+              CSS. Worked with social media teams to enhance engagement through
+              interactive content.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="facebook.png" alt="" />
+            <div class="vertical-Title">
+              HTML Developer - Facebook <br />(2016-2018)
+            </div>
+            <div class="vertical-desc">
+              Designed and developed Facebook-integrated pages and
+              mini-websites. Worked on Facebook Ads landing pages, ensuring
+              mobile responsiveness. Developed custom UI components for better
+              user interaction on Facebook campaigns.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="twittwr-removebg-preview.png" alt="" />
+            <div class="vertical-Title">
+              HTML Developer - Twitter <br />(2018-2020)
+            </div>
+            <div class="vertical-desc">
+              Built Twitter-integrated promotional pages and marketing websites.
+              Worked on embedding real-time Twitter feeds into websites. Ensured
+              fast-loading and interactive designs for Twitter audience
+              engagement.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Utkarsha's Developer Portfolio</h3>
+          <p>Passionate Web Developer & Video Editor</p>
+        </div>
+
+        <div class="footer-second">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-third">
+          <h4>Follow Me</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-fourth">
+          <h4>Contact</h4>
+          <p>Email: joshiutiarsha@gmail.com</p>
+          <p>Phone: +123 456 7890</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy;2025 Utkarsha. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Video Editor"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
